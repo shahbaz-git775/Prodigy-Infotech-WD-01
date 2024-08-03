@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">Super Computer</div>
+        <span class="sideMenuButton" 
+            onclick="openNavbar()">
+            &#9776
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Service">Service</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" 
+        id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()">
+            &#x274C
+        </a>
+        <a href="#">Home</a>
+		<a href="#">About</a>
+        <a href="#">Service</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>Welcome To Super Computer Website</h1>
+           
+        </div>
+        <div class="side2">
+            <img src=
+"1.jpg"
+                width="500">
+        </div>
+    </div>
+	<section class="about" id="About">
+		<div class="content">
+		  <div class="title">
+			<span>About Us</span>
+		  </div>
+		  <div class="boxes">
+			<div class="box">
+			  <div class="topic">
+				<p>
+					Supercomputers are the pinnacle of computational technology, designed to tackle the most demanding tasks that traditional computers cannot handle. These machines excel in processing vast amounts of data at unprecedented speeds, making them indispensable for complex simulations, scientific research, and advanced data analysis. Supercomputers play a crucial role in numerous scientific and engineering fields, 
+					enabling researchers to model climate change, simulate the behavior of new drugs, explore the vastness of space, and unravel the mysteries of the human genome. Their immense computational power allows scientists to run intricate simulations and perform detailed analyses that would 
+					otherwise be impossible. The development of supercomputers continually pushes the boundaries of technology, leading to breakthroughs in artificial intelligence, machine learning, and big data analytics.
+				</p>
+			  </div>
+			  
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <br>
+	  <br>
+    <section class="Service" id="Service">
+        <div class="content">
+            <div class="title">
+                <span>Service</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank" style="color: antiquewhite;">
+                            High Performance
+                        </a>
+                    </div>
+					<br>
+                    <p>
+                        Supercomputers deliver unparalleled processing power, enabling complex simulations and calculations. Their performance surpasses conventional computers by leveraging massive parallelism.
+                    </p>
+                </div>
+                <div class="box">
+
+                    <div class="topic">
+                        <a href="" target="_blank" style="color: antiquewhite;">
+                            Scientific Breakthroughs
+                        </a>
+                    </div>
+					<br>
+                    <p>
+                        Supercomputers drive advancements in fields like climate modeling, drug discovery, and astrophysics. They accelerate research by handling vast datasets and intricate computations.
+                    </p>
+                </div>
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank" style="color: antiquewhite;">
+                            Innovation Hub
+                        </a>
+                    </div>
+					<br>
+                    <p>
+                        Supercomputers are at the forefront of technological innovation, pushing the boundaries of what's possible. Their capabilities enable breakthroughs in AI, machine learning, and big data analytics.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="Contact">
+        <div class="content">
+            <div class="title"><span>Contact</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button>Submit</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Created By
+                <a href="https://www.geeksforgeeks.org/" 
+                    target="_blank">
+                    ShahbazKhan
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
